@@ -28,7 +28,7 @@ export default class Details extends Component {
                   <strong>Description: </strong>
                   {info}
                 </p>
-                <h2>Price: £ {price}</h2>
+                <h2>Price: ₹ {price}</h2>
                 <div className={classes.BtnContainer}>
                   <NavLink to="/shop">
                     <button className={classes.BackButton}>Back to Shop</button>

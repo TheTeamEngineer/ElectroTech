@@ -23,7 +23,7 @@ export default class Product extends Component {
     
           <h4 className={classes.Title}>{title}</h4>
         </NavLink>
-        <span className={classes.Price}>£ {price}</span>
+        <span className={classes.Price}>₹ {price}</span>
         <button
           disabled={inCart ? true : false}
           onClick={() => {
