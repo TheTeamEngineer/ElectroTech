@@ -11,6 +11,8 @@ import Details from "./components/Details/Details";
 import About from "./components/About/About";
 import Cart from "./components/Cart/Cart";
 import Modal from "./components/Modal/Modal";
+// import Footer from "./components/Footer/Footer";
+// import Footer from "./components/Footer/Footer";
 
 class App extends Component {
   state = {
@@ -27,7 +29,8 @@ class App extends Component {
   };
 
   render() {
-    return (
+    return  (
+      <> 
       <div className={classes.App}>
         <div className={classes.Container}>
           <Navbar drawerClickHandler={this.drawerToggleClickHandler} />
@@ -45,10 +48,15 @@ class App extends Component {
             <Route path="/About" component={About} />
             <Route path="/cart" component={Cart} />
             <Route component={Default} />
-          </Switch>
-          <Modal />
-        </div>
+          </Switch> 
+          <Modal />          
+       </div>
       </div>
+      
+      </>
+          
+
+   
     );
   }
 }
