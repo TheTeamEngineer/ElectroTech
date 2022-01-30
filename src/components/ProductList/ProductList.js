@@ -10,7 +10,7 @@ export default class ProductList extends Component {
   render() {
     return (
       <div className={classes.PageContainer}>
-        <Title name="Suitcase" />
+        <Title name="ElectroTech" />
         <div className ={classes.ProductContainer}>
           <ProductConsumer>
             {(value)=>{
