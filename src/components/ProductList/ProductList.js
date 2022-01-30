@@ -9,7 +9,7 @@ export default class ProductList extends Component {
   };
   render() {
     return (
-      <div className={classes.PageContainer}>
+      <div className={classes.PageContainer} style={{textAlign:"center"}}>
         <Title name="ElectroTech" />
         <div className ={classes.ProductContainer}>
           <ProductConsumer>
