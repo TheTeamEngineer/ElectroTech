@@ -31,6 +31,9 @@ export default class Home extends Component {
  
        </div>
        <div>
+      
+       </div>
+       <div>
        <Box>
 	<h1 style={{ color: "#279896",
 				textAlign: "center",
