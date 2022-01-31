@@ -1,68 +1,96 @@
-# React Ecommerce Site
+# ElectroTech
+<div align="center">
+ <h1>A sneak peek into what we have here</h1>
+ 
+![wordnook](ElectroTech.gif)
 
 
+</div>
+
+## Technology Stack 🛠️
 
 
+- **Coding Languages**: <img alt="JavaScript" src="https://img.shields.io/badge/javascript%20-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"/> <img alt="HTML5" src="https://img.shields.io/badge/html5%20-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white"/> <img alt="CSS3" src="https://img.shields.io/badge/css3%20-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white"/><img alt="React" src="https://img.shields.io/badge/react%20-%231572B6.svg?&style=for-the-badge&logo=react&logoColor=white"/>
 
-### `npm start`
+- **Project Management Tools**: <img alt="GitHub" src="https://img.shields.io/badge/github%20-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white"/> <img alt="Git" src="https://img.shields.io/badge/git%20-%23F05033.svg?&style=for-the-badge&logo=git&logoColor=white"/>
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## TODO
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+- [ ] Home Page crousel 
+- [ ] Category Filter
+- [ ] Tracking of shipment page
+- [ ] Register and Sign-in pop-up page 
+- [ ] Add to Wishlist.
+- [ ] Chat with us bot
+- [ ] Item Search Bar
 
-### `npm test`
+## Bugs
+- [ ]
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Environment Setup for local use-
 
-### `npm run build`
+* Drop a :star: on the GitHub repository.
+<br/>
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* Download [Git](https://git-scm.com/downloads) (when you install Git, Git Bash also gets installed by default)
+<br/>
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+* Download and install a code/ text editor.
+    - Recommended-
+        - [Download VS Code](https://code.visualstudio.com/download)
+        - [Download Atom](https://atom.io/)
+<br/> <br/>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Installation using NPM 
 
-### `npm run eject`
+* Download [Node Js and npm(Node package manager)](https://nodejs.org/en/) (when you install Node, npm also gets installed by default)
+<br/>
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+* Clone the repository by running command
+```
+git clone https://github.com/<your user-name>/ElectroTech.git
+```
+in your git bash.
+<br/>
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+* Run command `cd ElectroTech`.
+<br/>
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+* Run this command to install all dependencies for the project.
+```
+npm install
+```
 
-## Learn More
+<br/>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+* Run this command to start the project.
+```
+npm start
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+or
 
-### Code Splitting
+* Run this command to start the project as a developer.
+```
+npm run dev
+```
+<br/>
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+* Open link to view the website in your browser window if it doesn't open automatically.
+```
+http://localhost:3000/
+```
+<br/>
 
-### Analyzing the Bundle Size
+## Maintainers ✨
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/naqeeb2710"><img src="https://avatars.githubusercontent.com/u/36132542?s=400&u=f85fc63c2558ba38d0f04e67446b4820f44821a7&v=4" width="100px;" alt=""/><br /><sub><b>Naqeeb Ahmed<br/>
+     <td align="center"><a href="https://github.com/saquibk765"><img src="https://avatars.githubusercontent.com/u/83610280?v=4" width="100px;" alt=""/><br /><sub><b>saquib Khan<br/>
+      <td align="center"><a href="https://github.com/Furquan712"><img src="https://avatars.githubusercontent.com/u/78477491?v=4" width="100px;" alt=""/><br /><sub><b>Syed Md Furquan<br/>
+       <td align="center"><a href="https://github.com/muazaqdas"><img src="https://avatars.githubusercontent.com/u/84477094?v=4" width="100px;" alt=""/><br /><sub><b>Muaz Aqduas<br/>
+    
+  </tr>
+</table>
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
