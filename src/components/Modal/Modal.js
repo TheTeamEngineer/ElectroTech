@@ -3,6 +3,7 @@ import { ProductConsumer } from "./../../context";
 import BackDrop from "./../Backdrop/Backdrop";
 import classes from "./Modal.css";
 import { NavLink } from "react-router-dom";
+
 export default class Modal extends Component {
   render() {
     return (

@@ -12,7 +12,6 @@ import About from "./components/About/About";
 import Cart from "./components/Cart/Cart";
 import Modal from "./components/Modal/Modal";
 // import Footer from "./components/Footer/Footer";
-// import Footer from "./components/Footer/Footer";
 
 class App extends Component {
   state = {

@@ -1,4 +1,5 @@
 import React from "react";
+import { Route, Switch } from "react-router";
 import {
 Box,
 Container,
@@ -11,43 +12,43 @@ Heading,
 const Footer = () => {
 return (
 	<Box>
-	<h1 style={{ color: "green",
+	<h1 style={{ color: "#279896",
 				textAlign: "center",
 				marginTop: "-50px" }}>
-		GeeksforGeeks: A Computer Science Portal for Geeks
+	ElectroTech:  A new destination for Robotics.
 	</h1>
 	<Container>
 		<Row>
-		<Column>
+		<Column style={{margin:"0", paddingRight:"0"}}>
 			<Heading>About Us</Heading>
-			<FooterLink href="#">Aim</FooterLink>
-			<FooterLink href="#">Vision</FooterLink>
+			<FooterLink href="#">Shop</FooterLink>
+			<FooterLink href="#">About Us</FooterLink>
 			<FooterLink href="#">Testimonials</FooterLink>
 		</Column>
 		<Column>
 			<Heading>Services</Heading>
-			<FooterLink href="#">Writing</FooterLink>
-			<FooterLink href="#">Internships</FooterLink>
-			<FooterLink href="#">Coding</FooterLink>
-			<FooterLink href="#">Teaching</FooterLink>
+			<FooterLink href="#">Robotics Parts</FooterLink>
+			<FooterLink href="#">Electronics Parts</FooterLink>
+			<FooterLink href="#">Hardware</FooterLink>
+			<FooterLink href="#">Drone</FooterLink>
 		</Column>
 		<Column>
 			<Heading>Contact Us</Heading>
 			<FooterLink href="#">Uttar Pradesh</FooterLink>
-			<FooterLink href="#">Ahemdabad</FooterLink>
-			<FooterLink href="#">Indore</FooterLink>
-			<FooterLink href="#">Mumbai</FooterLink>
+			<FooterLink href="#">Haryana</FooterLink>
+			<FooterLink href="#">Punjab</FooterLink>
+			<FooterLink href="#">Delhi</FooterLink>
 		</Column>
 		<Column>
 			<Heading>Social Media</Heading>
-			<FooterLink href="#">
-			<i className="fab fa-facebook-f">
+			<FooterLink href="https://www.linkedin.com/company/electrotech0/">
+			<i className="fab fa-linkdin-l">
 				<span style={{ marginLeft: "10px" }}>
-				Facebook
+			LinkedIn
 				</span>
 			</i>
 			</FooterLink>
-			<FooterLink href="#">
+			{/* <FooterLink href="#">
 			<i className="fab fa-instagram">
 				<span style={{ marginLeft: "10px" }}>
 				Instagram
@@ -60,8 +61,8 @@ return (
 				Twitter
 				</span>
 			</i>
-			</FooterLink>
-			<FooterLink href="#">
+			</FooterLink> */}
+			<FooterLink href="https://www.youtube.com/channel/UCTbq4H_OpblOcOiR1TqxJSQ">
 			<i className="fab fa-youtube">
 				<span style={{ marginLeft: "10px" }}>
 				Youtube
