@@ -3,7 +3,7 @@ import Title from "./../../Title/Title";
 const EmptyCart = () => {
   return (
     <div>
-      <Title name="Your Cart is Empty"/>
+      <Title name="Sorry,Your Cart is Empty"/>
     </div>
   )
 }
