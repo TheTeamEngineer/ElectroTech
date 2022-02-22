@@ -87,9 +87,10 @@ http://localhost:3000/
 <table>
   <tr>
     <td align="center"><a href="https://github.com/naqeeb2710"><img src="https://avatars.githubusercontent.com/u/36132542?s=400&u=f85fc63c2558ba38d0f04e67446b4820f44821a7&v=4" width="100px;" alt=""/><br /><sub><b>Naqeeb Ahmed<br/>
-     <td align="center"><a href="https://github.com/saquibk765"><img src="https://avatars.githubusercontent.com/u/83610280?v=4" width="100px;" alt=""/><br /><sub><b>saquib Khan<br/>
-      <td align="center"><a href="https://github.com/Furquan712"><img src="https://avatars.githubusercontent.com/u/78477491?v=4" width="100px;" alt=""/><br /><sub><b>Syed Md Furquan<br/>
-       <td align="center"><a href="https://github.com/muazaqdas"><img src="https://avatars.githubusercontent.com/u/84477094?v=4" width="100px;" alt=""/><br /><sub><b>Muaz Aqduas<br/>
+    <td align="center"><a href="https://github.com/saquibk765"><img src="https://avatars.githubusercontent.com/u/83610280?v=4" width="100px;" alt=""/><br /><sub><b>saquib Khan<br/>
+    <td align="center"><a href="https://github.com/Furquan712"><img src="https://avatars.githubusercontent.com/u/78477491?v=4" width="100px;" alt=""/><br /><sub><b>Syed Md Furquan<br/>
+    <td align="center"><a href="https://github.com/muazaqdas"><img src="https://avatars.githubusercontent.com/u/84477094?v=4" width="100px;" alt=""/><br /><sub><b>Muaz Aqduas<br/>
+    <td align="center"><a href="https://github.com/ritikmasand"><img src="https://avatars.githubusercontent.com/u/77391068?v=4" width="100px;" alt=""/><br /><sub><b>Ritik Masand<br/>
     
   </tr>
 </table>
