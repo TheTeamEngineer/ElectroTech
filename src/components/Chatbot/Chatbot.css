@@ -1,0 +1,26 @@
+.container{
+  display: flex;
+  position: fixed;
+  bottom: 5vh;
+  right: 5vw;
+  z-index: 9999;
+}
+
+.Chatbot{
+  margin-bottom: 10vh;
+}
+
+.CallToAction{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background: #fff;
+  cursor: pointer;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
