@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import classes from "./SearchBar.css";
 import { MdSearch, MdClose } from "react-icons/md";
 
