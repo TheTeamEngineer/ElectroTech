@@ -8,7 +8,7 @@ export default class Home extends Component {
     return (
       <div className={classes.Container}>
         <div className={classes.imgContainer}>
-          <img src={faq} className={classes.logo} />
+          <img src={faq} className={classes.logo} alt="photo"/>
         </div>
         <div className={classes.content}>
           <div className={classes.heading}>Frequently asked questions</div>
