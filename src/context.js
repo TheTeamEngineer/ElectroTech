@@ -13,10 +13,18 @@ class ProductProvider extends Component {
     modalProduct: detailProduct,
     cartSubTotal: 0,
     cartTax: 0,
-    cartTotal: 0
+    cartTotal: 0,
   };
   componentDidMount() {
     this.setProduct();
+  }
+  handleSorting = (sort)=>{
+
+    // Setting the state products to the sorted value
+
+    this.setState({
+      products: sort
+    })
   }
   setProduct = () => {
     let products = [];
@@ -161,7 +169,8 @@ class ProductProvider extends Component {
           increment: this.increment,
           decrement: this.decrement,
           removeItem: this.removeItem,
-          clearCart: this.clearCart
+          clearCart: this.clearCart,
+          handleSorting : this.handleSorting
         }}
       >
         {this.props.children}
