@@ -3,6 +3,7 @@ import classes from "./Home.css";
 import Robot from "./../../assets/img/robot.jpg";
 import { NavLink } from "react-router-dom";
 import Footer from '../Footer/Footer'
+import Faq from '../FAQ/Faq'
   
 
 export default class Home extends Component {
@@ -22,6 +23,7 @@ export default class Home extends Component {
         </div>
  
        </div>
+       <Faq/>
 
 		<Footer />
       </div>
