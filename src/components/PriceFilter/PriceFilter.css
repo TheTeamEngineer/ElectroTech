@@ -1,0 +1,38 @@
+
+
+.selectwrap 
+{
+  border: 1px solid #777;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  padding: 0 5px 5px;
+  width:200px;
+  background-color:#ebebeb;
+  margin: 0 auto;
+
+  margin-bottom: 4vh;
+  border-radius: 50px;
+}
+
+.selectwrap label
+{
+  font-size:10px;
+  text-transform: uppercase;
+  color: #777;
+  padding: 2px 8px 0;
+}
+
+select
+{
+  background-color: #ebebeb;
+  border:0px;
+  width: 100%;
+  text-align: center;
+}
+.heading{
+    color: #00344B;
+    font-family: 'Rasa', serif;
+    font-size: 25px;
+    font-weight: normal;
+    
+}

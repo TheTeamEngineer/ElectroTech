@@ -4,6 +4,9 @@ import Product from "../Product/Product";
 import classes from "./ProductList.css";
 import { ProductConsumer } from "./../../context";
 import SearchBar from "../SearchBar/SearchBar";
+import PriceFilter from "../PriceFilter/PriceFilter";
+import { storeProducts } from "../../data";
+
 export default class ProductList extends Component {
   state = {
     searchval: "", // For maintaining the search value
@@ -12,7 +15,7 @@ export default class ProductList extends Component {
   constructor(props) {
     super(props);
     this.handleType = this.handleType.bind(this);
-    this.handleClear = this.handleType.bind(this)
+    this.handleClear = this.handleType.bind(this);
   }
 
   // Handle On Change  Value
@@ -22,14 +25,13 @@ export default class ProductList extends Component {
       searchval: event.target.value,
     });
 
-    if(!event.target.value)
-    {
+    if (!event.target.value) {
       this.setState({
-        searchval: '',
+        searchval: "",
       });
       return;
     }
-
+    console.log(this.context.products);
     // Filtering  Data
 
     const filtered = this.context.products.filter((country) => {
@@ -37,16 +39,14 @@ export default class ProductList extends Component {
         .toLowerCase()
         .startsWith(event.target.value.toLowerCase());
     });
-  
+
     if (event.target.value !== "") this.context.filteredProducts = filtered;
     else this.context.filteredProducts = this.context.products;
-
-    
   }
 
-  handleClear(){
+  handleClear() {
     this.setState({
-      searchval: '',
+      searchval: "",
     });
   }
 
@@ -65,9 +65,13 @@ export default class ProductList extends Component {
             />
           )}
         </ProductConsumer>
+        <ProductConsumer>
+          {(value) => <PriceFilter value={value} />}
+        </ProductConsumer>
 
         <div className={classes.ProductContainer}>
           {/* If search value is present then show the filtered results else show all products */}
+
           {this.state.searchval ? (
             <ProductConsumer>
               {(value) => {
