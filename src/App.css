@@ -1,7 +1,8 @@
-.App{
-    background-color: #EEEDE7;
-    height:100%;
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Poppins:wght@100;200;300;400;500;600;700&family=Satisfy&display=swap");
+.App {
+  background-color: #eeede7;
+  height: 100%;
 }
-.Container{
- margin-top: 90px;
+.Container {
+  margin-top: 90px;
 }
