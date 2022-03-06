@@ -1,22 +1,32 @@
 .Navbar {
   position: absolute;
-  width: 100%;
-  top: 20px;
+  width: 100vw;
+  top: 0px;
   left: 0;
-  background-color: #ffffff;
-  height: 60px;
-  box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+  background-color: transparent;
+  height: 80px;
+  font-family: "Inter", sans-serif;
+  z-index: 100;
+  
 }
 
 .Navigation {
+  margin-left: 10%;
+  margin-right: 10%;
   display: flex;
+  justify-content: space-between;
   align-items: center;
   height: 100%;
   padding: 0 2rem;
+  font-weight: 500;
+  font-size: 16px;
+  
 }
 
 .Logo {
   margin-left: 0.5rem;
+  margin-right: 50px;
+
 }
 
 @media (min-width: 769px) {

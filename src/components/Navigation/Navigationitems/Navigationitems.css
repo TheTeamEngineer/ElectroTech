@@ -4,15 +4,15 @@
   width: 100%;
   margin: 0;
   padding: 0;
- 
+  display: flex;
+  align-items: center;
 }
 
-
-.Cart{
-    width: 30px; 
+.Cart {
+  width: 30px;
 }
 @media (max-width: 768px) {
-  .NavigationItems li:not(:last-child){
+  .NavigationItems li:not(:last-child) {
     display: none;
   }
 }
