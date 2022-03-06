@@ -16,7 +16,10 @@ const Navbar = props => (
           <Logo />
         </NavLink>
       </div>
+      <div className={classes.NavbarContainer}>
+
         <NavigationItems />
+        </div>
     </nav>
   </header>
 );
