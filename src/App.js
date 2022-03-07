@@ -11,6 +11,7 @@ import Details from "./components/Details/Details";
 import About from "./components/About/About";
 import Cart from "./components/Cart/Cart";
 import Modal from "./components/Modal/Modal";
+import Chatbot from "./components/Chatbot/Chatbot";
 // import Footer from "./components/Footer/Footer";
 
 class App extends Component {
@@ -32,6 +33,7 @@ class App extends Component {
       <> 
       <div className={classes.App}>
         <div className={classes.Container}>
+          <Chatbot/>
           <Navbar drawerClickHandler={this.drawerToggleClickHandler} />
           <SideDrawer
             show={this.state.sideDrawerOpen}
