@@ -11,6 +11,31 @@
 .Cart {
   width: 30px;
 }
+.signup{
+  position: absolute;
+  top: 27px;
+  left: 1270px;
+  background-color: #7052fb;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  width: 70px;
+  height: 30px;
+  color: white;
+}
+.login{
+  position: absolute;
+  top: 27px;
+  left: 1350px;
+  background-color: #7052fb;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  width: 70px;
+  height: 30px;
+  color: white;
+
+}
 @media (max-width: 768px) {
   .NavigationItems li:not(:last-child) {
     display: none;
