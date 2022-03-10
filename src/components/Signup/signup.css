@@ -9,6 +9,7 @@
     justify-content: center;
     align-items: center;
     backdrop-filter: blur(8px);
+    z-index: 1001;
 }
 .popupinner{
     position: relative;
@@ -101,7 +102,6 @@
     color: #fff;
     font-size: 1rem;
   }
-  
   .forminputbtn:hover {
     cursor: pointer;
     background: linear-gradient(
@@ -111,7 +111,7 @@
     );
     transition: all 0.4s ease-out;
   }
-  
+ 
   .forminputlogin {
     font-size: 0.8rem;
     margin-top: 10px;

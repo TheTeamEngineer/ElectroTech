@@ -13,14 +13,15 @@ const navigationItems = () => {
 
   return (
     <ul className={classes.NavigationItems}>
-      <Navigationitem link="/shop">Shop</Navigationitem>
-      <Navigationitem link="/about">About</Navigationitem>
       <button onClick={() => setSignup(true)} className={classes.signup}>
         Signup
       </button>
       <button onClick={() => setLogin(true)} className={classes.login}>
         Login
       </button>
+      <Navigationitem link="/shop">Shop</Navigationitem>
+      <Navigationitem link="/about">About</Navigationitem>
+      
       <Navigationitem link="/cart" cart="cart">
         <TiShoppingCart className={classes.Cart} />
       </Navigationitem>

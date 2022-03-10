@@ -14,7 +14,9 @@
 .signup{
   position: absolute;
   top: 27px;
-  left: 1270px;
+  left: 65%;
+ 
+
   background-color: #7052fb;
   border: none;
   outline: none;
@@ -24,9 +26,10 @@
   color: white;
 }
 .login{
-  position: absolute;
+   position: absolute;
   top: 27px;
-  left: 1350px;
+  left: 70%; 
+
   background-color: #7052fb;
   border: none;
   outline: none;
@@ -37,7 +40,20 @@
 
 }
 @media (max-width: 768px) {
-  .NavigationItems li:not(:last-child) {
+ .NavigationItems li:not(:last-child) {
     display: none;
+  } 
+}
+
+@media (max-width: 1440px) {
+  .signup{
+    position: absolute;
+    top: 27px;
+    left: 60%;
+  }
+  .login{
+    position: absolute;
+    top: 27px;
+    left: 66%; 
   }
 }
