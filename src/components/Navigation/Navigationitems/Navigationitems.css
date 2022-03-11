@@ -11,8 +11,49 @@
 .Cart {
   width: 30px;
 }
+.signup{
+  position: absolute;
+  top: 27px;
+  left: 65%;
+ 
+
+  background-color: #7052fb;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  width: 70px;
+  height: 30px;
+  color: white;
+}
+.login{
+   position: absolute;
+  top: 27px;
+  left: 70%; 
+
+  background-color: #7052fb;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  width: 70px;
+  height: 30px;
+  color: white;
+
+}
 @media (max-width: 768px) {
-  .NavigationItems li:not(:last-child) {
+ .NavigationItems li:not(:last-child) {
     display: none;
+  } 
+}
+
+@media (max-width: 1440px) {
+  .signup{
+    position: absolute;
+    top: 27px;
+    left: 60%;
+  }
+  .login{
+    position: absolute;
+    top: 27px;
+    left: 66%; 
   }
 }

@@ -1,0 +1,127 @@
+.popup{
+    position: fixed;
+    top: 0;
+    left: 20px;
+    width: 100%;
+    height: 100vh;
+    background:transparent;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(8px);
+    z-index: 1001;
+}
+.popupinner{
+    position: relative;
+    padding: 32px;
+    width: 100%;
+    max-width: 640px;
+    background-color: #e1dfee;
+    height: 500px;
+    width: 480px;
+
+}
+.popupinner .closebtn{
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    background-color: #7052fb;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    width: 70px;
+    height: 30px;
+    color: white;
+}
+
+  .formcontentright {
+    border-radius: 0 10px 10px 0;
+    position: relative;
+    background: linear-gradient(90deg, rgb(40, 40, 40) 0%, rgb(17, 17, 17) 100%);
+  }
+  
+  .form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .form h1 {
+    font-size: 1rem;
+    text-align: center;
+    width: 80%;
+    color: black;
+    margin-top: 480px;
+  }
+  
+  .forminputs {
+    margin-bottom: 0.5rem;
+    width: 450px;
+  }
+  
+  .formlabel {
+    display: inline-block;
+    font-size: 0.8rem;
+    margin-bottom: 6px;
+    margin-left: 10px;
+    color: black;
+  }
+  
+  .forminput {
+    display: block;
+    padding-left: 10px;
+    outline: none;
+    border-radius: 2px;
+    height: 40px;
+    width: 100%;
+    border: none;
+    border-radius: 20px;
+  }
+  
+  .forminput::placeholder {
+    color: #595959;
+    font-size: 12px;
+  }
+  
+  .forminputbtn {
+    width: 200px;
+    height: 80px;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    background: #7052fb;
+    outline: none;
+    border: none;
+    color: #fff;
+    font-size: 1rem;
+  }
+  .forminputbtn:hover {
+    cursor: pointer;
+    background: linear-gradient(
+      90deg,
+      rgb(39, 143, 255) 0%,
+      rgb(12, 99, 250) 100%
+    );
+    transition: all 0.4s ease-out;
+  }
+ 
+  .forminputlogin {
+    font-size: 0.8rem;
+    margin-top: 10px;
+    color: blue;
+    width: 80%;
+    text-align: center;
+  }
+  
+  .forminputlogin a {
+    text-decoration: none;
+    color: blue;
+    font-weight: 600;
+  }
