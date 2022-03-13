@@ -14,8 +14,8 @@
   position: absolute;
   bottom: 0;
   right: 0;
-  width: 70px;
-  height: 70px;
+  width: 64px;
+  height: 64px;
   border-radius: 50%;
   background: #fff;
   cursor: pointer;
@@ -23,4 +23,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
+
+  box-shadow: hsla(254, 64%, 27%, 0.2) 0px 2px 70px 1px;
+  transition: 0.2s linear;
+}
+.CallToAction:hover {
+  transform: translateY(-4px);
+  box-shadow: hsla(254, 56%, 48%, 0.48) 0px 2px 70px 1px;
 }
