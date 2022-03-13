@@ -1,17 +1,17 @@
 .NavigationItem {
   margin: 0 1.125rem;
   font-size: 16px;
-  color: #fff;
+  color:hsl(254, 88%, 64%);
 }
 
 .NavigationItem a {
-  color: #fff;
+  color: hsl(254, 88%, 64%);
   text-decoration: none;
   position: relative;
   left: -50px;
 }
 .NavigationItem a:hover {
-  color: #766df4;
+  color: hsl(254, 88%, 56%);
 }
 
 .NavigationItem > a:before {
@@ -22,7 +22,7 @@
   margin-top: 40px;
   bottom: 0;
   left: 0;
-  background-color: #766df4;
+  background-color: hsl(254, 88%, 56%);
   visibility: hidden;
   transform: scaleX(0);
   transition: all 0.3s ease-in-out 0s;
@@ -45,10 +45,10 @@
   margin: 0px;
   padding: 0;
   margin-top: 10px;
-  color: #fff;
+  color: hsl(254, 88%, 64%);
 }
 .CartItem a :hover {
-  color: #766df4;
+  color: hsl(254, 88%, 56%);
 }
 .Cart {
   height: 150px !important;

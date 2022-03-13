@@ -9,7 +9,7 @@ const Navbar = props => (
   <header className={classes.Navbar}>
     <nav className={classes.Navigation}>
       <div className={classes.ToggleButton}>
-        <DrawerToggleButton click={props.drawerClickHandler}/>
+        <DrawerToggleButton click={props.drawerClickHandler} />
       </div>
       <div className={classes.Logo}>
         <NavLink to="/">
@@ -17,9 +17,8 @@ const Navbar = props => (
         </NavLink>
       </div>
       <div className={classes.NavbarContainer}>
-
         <NavigationItems />
-        </div>
+      </div>
     </nav>
   </header>
 );
