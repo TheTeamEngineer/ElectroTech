@@ -15,40 +15,38 @@ export default class Product extends Component {
         <ProductConsumer>
           {(value) => (
             <div class={classes.productcard}>
-              <NavLink to="/details">
+              <NavLink to='/details'>
                 <div
                   class={classes.producttumb}
-                  onClick={() => value.handleDetail(id)}
-                >
+                  onClick={() => value.handleDetail(id)}>
                   <img src={img} alt={title} className={classes.Img} />
                 </div>
               </NavLink>
-              <div className={classes.productdetails}>
-                <NavLink to="/details" style={{ textDecoration: "none" }}>
+              <div className={classes.productinfo}>
+                <div class={classes.wcfright}>
+                  <a
+                    disabled={inCart ? true : false}
+                    onClick={(e) => {
+                      e.preventDefault();
+                      value.addToCart(id);
+                      value.openModal(id);
+                    }}
+                    className={
+                      inCart ? classes.CartBtnDisable : classes.buybtn
+                    }>
+                    <MdShoppingBasket /> Add to Cart
+                  </a>
+                </div>
+                <NavLink to='/details' style={{ textDecoration: "none" }}>
                   {" "}
                   <h3>{title}</h3>
                 </NavLink>
-                <div class={classes.descriptionprod}>
-                  <p>{info}</p>
-                </div>
-                <div class={classes.cardfooter}>
-                  <div class={classes.wcfleft}>
-                    <span class={classes.price}>₹{price}</span>
+                <div className={classes.productdetails}>
+                  <div class={classes.descriptionprod}>
+                    <p>{info}</p>
                   </div>
-                  <div class={classes.wcfright}>
-                    <a
-                      disabled={inCart ? true : false}
-                      onClick={(e) => {
-                        e.preventDefault();
-                        value.addToCart(id);
-                        value.openModal(id);
-                      }}
-                      className={
-                        inCart ? classes.CartBtnDisable : classes.buybtn
-                      }
-                    >
-                      <MdShoppingBasket />
-                    </a>
+                  <div class={classes.cardfooter}>
+                    <span class={classes.price}>₹{price}</span>
                   </div>
                 </div>
               </div>
