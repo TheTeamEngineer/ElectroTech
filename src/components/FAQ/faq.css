@@ -79,3 +79,13 @@
 .accordion__input:checked ~ .accordion__label::after {
   transform: translateY(-50%) rotate(0.5turn);
 }
+
+@media only screen and (max-width: 800px) {
+  .imgContainer {
+    display: none;
+  }
+  .heading {
+    margin: 0 auto;
+    text-align: center;
+  }
+}

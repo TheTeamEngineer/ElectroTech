@@ -1,4 +1,4 @@
-.container{
+.container {
   display: flex;
   position: fixed;
   bottom: 5vh;
@@ -6,11 +6,12 @@
   z-index: 9999;
 }
 
-.Chatbot{
+.Chatbot {
   margin-bottom: 10vh;
+  backdrop-filter: blur(20px);
 }
 
-.CallToAction{
+.CallToAction {
   position: absolute;
   bottom: 0;
   right: 0;
