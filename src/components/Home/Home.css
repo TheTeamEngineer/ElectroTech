@@ -49,6 +49,7 @@
   margin-right: 60px;
   /* border: 1px solid #000; */
   width: 60%;
+  object-fit: cover;
 }
 @media only screen and (max-width: 470px) {
   .Title {

@@ -1,12 +1,13 @@
 .Container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-  grid-template-rows: minmax(80vh,1fr);
+  grid-template-rows: minmax(80vh, 1fr);
   margin: 5rem 2rem 2rem 2rem;
   background-color: #ffffff;
+  border-radius: 0.5rem;
 }
-@media only screen and (max-width:450px){
-  .Container{
+@media only screen and (max-width: 450px) {
+  .Container {
     margin: 5rem 0 0 0;
   }
 }
@@ -17,7 +18,7 @@
   overflow: hidden;
   justify-self: center;
 }
-@media only screen and (max-width:450px){
+@media only screen and (max-width: 450px) {
   .ImgContainer {
     width: 100%;
   }
