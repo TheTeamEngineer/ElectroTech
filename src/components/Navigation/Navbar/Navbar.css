@@ -22,7 +22,18 @@
   font-size: 16px;
   
 }
-
+@media only screen and (max-width: 395px) {
+  .Navigation {
+  margin: 0 .5rem;
+  padding: 0;
+  }
+  /* .Logo{
+      position: absolute;
+  left: 2.5rem;
+  width: 7rem;
+  top: .8rem;
+} */
+}
 .Logo {
   margin-left: 0.5rem;
   margin-right: 50px;
