@@ -44,14 +44,15 @@
   }
   .roboImg {
     position: absolute;
-    width: 60%;
-    top: 25%;
-    left: 35%;
-  }
+    top: 35%;
+    left: 5%;
+    }
+
   .Btn {
-    margin-top: 5rem;
-    margin-left: 6rem;
     width: max-content;
+    bottom: 5rem;
+    position: absolute;
+    left: 5%;
   }
 }
 

@@ -11,16 +11,22 @@
 }
 
 .Navigation {
-  margin-left: 10%;
-  margin-right: 10%;
-  display: flex;
+    display: flex;
   justify-content: space-between;
   align-items: center;
   height: 100%;
-  padding: 0 2rem;
+  padding: 0 1rem;
   font-weight: 500;
   font-size: 16px;
+
   
+}
+@media only screen and (max-width: 830px) {
+  .Logo {
+    top: 10%;
+left: 10%;
+position: absolute;
+  }
 }
 @media only screen and (max-width: 395px) {
   .Navigation {
