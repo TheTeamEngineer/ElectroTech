@@ -1,0 +1,83 @@
+.contactUsBox {
+  
+  position: relative;
+  bottom: 0;
+  left: 0;
+  flex-direction: column;
+  width: 100%;
+}
+
+.wave {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: auto;
+}
+.headText {
+  position: absolute;
+  bottom: 5rem;
+  left: 4rem;
+  z-index: 1;
+}
+.middleText {
+  position: absolute;
+  bottom: 4rem;
+  left: 42rem;
+  color: rgb(18, 164, 217);
+  font-size: 2rem;
+  font-weight: 600;
+}
+.middleText_inner {
+  width: 60%;
+}
+.iconContent {
+  top: 0;
+  display: flex;
+  position: absolute;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-around;
+}
+.icons {
+  display: inline-block;
+  background-color: #d0d0d0;
+  border-radius: 100%;
+}
+.icon {
+  padding: 0.2rem;
+}
+.connectUsContent {
+  display: flex;
+  position: absolute;
+  bottom: 5rem;
+  width: 100%;
+  justify-content: flex-end;
+  right: 10rem;
+}
+
+@media screen and (max-width: 1300px) {
+  .middleText_inner {
+    display: none;
+  }
+  .contactUsBox {
+    background-color: black;
+  }
+  .connectUsContent {
+    bottom: 7rem;
+    right: 4rem;
+  }
+  .icons {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .connectUsContent {
+    bottom: 1.4rem;
+    right: 2rem;
+  }
+  .headText {
+    bottom: 0;
+    left: 0;;
+  }
+}
