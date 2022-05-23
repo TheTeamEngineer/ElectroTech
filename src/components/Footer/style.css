@@ -15,14 +15,14 @@
 }
 .headText {
   position: absolute;
-  bottom: 5rem;
+  bottom: 2rem;
   left: 4rem;
   z-index: 1;
 }
 .middleText {
   position: absolute;
-  bottom: 4rem;
-  left: 42rem;
+  bottom: 2.5rem;
+  left: 35rem;
   color: rgb(18, 164, 217);
   font-size: 2rem;
   font-weight: 600;
@@ -49,13 +49,13 @@
 .connectUsContent {
   display: flex;
   position: absolute;
-  bottom: 5rem;
+  bottom: 4rem;
   width: 100%;
   justify-content: flex-end;
   right: 10rem;
 }
 
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 1120px) {
   .middleText_inner {
     display: none;
   }
