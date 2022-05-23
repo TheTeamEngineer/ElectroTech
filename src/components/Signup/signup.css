@@ -65,7 +65,14 @@
     margin-bottom: 0.5rem;
     width: 450px;
   }
-  
+  @media only screen and (max-width: 395px) {
+    .forminputs{
+      width: 100%;
+    }
+    .closebtn .popupinner{
+      width: 3rem;
+    }
+  }
   .formlabel {
     display: inline-block;
     font-size: 0.8rem;

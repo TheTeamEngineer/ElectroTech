@@ -49,11 +49,48 @@
   .signup{
     position: absolute;
     top: 27px;
-    left: 60%;
+    left: 50%;
   }
   .login{
     position: absolute;
     top: 27px;
-    left: 66%; 
+    left: 60%; 
   }
+}
+
+@media (max-width: 830px) {
+  .signup{
+    position: absolute;
+    top: 27px;
+    left: 65%;
+  }
+  .login{
+    position: absolute;
+    top: 27px;
+    left: 80%; 
+  }
+}
+
+@media (max-width: 500px) {
+  .signup{
+    position: absolute;
+    top: 27px;
+    left: 50%;
+  }
+  .login{
+    position: absolute;
+    top: 27px;
+    left: 70%; 
+  }
+} 
+
+@media only screen and (max-width: 395px) {
+  .signup{
+    left: 54%;
+    width: 3.5rem;
+  }
+  .login{
+    width: 3.5rem;
+  }
+  
 }

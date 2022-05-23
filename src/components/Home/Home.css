@@ -36,6 +36,26 @@
   line-height: 1.2;
 }
 
+@media only screen and (max-width: 395px) {
+  .Title {
+    position: absolute;
+    top: 7rem;
+    left: 0;
+  }
+  .roboImg {
+    position: absolute;
+    top: 35%;
+    left: 5%;
+    }
+
+  .Btn {
+    width: max-content;
+    bottom: 5rem;
+    position: absolute;
+    left: 5%;
+  }
+}
+
 .heroSection {
   position: absolute;
   top: 0;
