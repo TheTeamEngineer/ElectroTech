@@ -23,14 +23,16 @@ export default class Product extends Component {
                 </div>
               </NavLink>
               <div className={classes.productinfo}>
-                <div class={classes.wcfright}>
-                  <a
-                    disabled={inCart ? true : false}
-                    onClick={(e) => {
+                <div class={classes.wcfright}
+                onClick={(e) => {
                       e.preventDefault();
                       value.addToCart(id);
                       value.openModal(id);
                     }}
+                >
+                  <a
+                    disabled={inCart ? true : false}
+                    
                     className={
                       inCart ? classes.CartBtnDisable : classes.buybtn
                     }>
