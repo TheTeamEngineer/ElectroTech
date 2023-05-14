@@ -44,13 +44,28 @@ const MainContainer = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+    background: linear-gradient(-45deg,#ff3d02,#e73c7e,#23a6d5,#23d5ab);
     background-color: #54BAB9;
     border-radius: 15px;
     margin: 10px 30px;
     text-align: center;
     padding: 0 150px;
+    background-size: 400% 400%;
+    animation: gradient 10s ease infinite;
   }
+
+    @keyframes gradient {
+    0%{
+        background-position: 0% 50%;
+    }   
+    50%{
+        background-position: 100% 50%;
+    }           
+    100%{
+        background-position: 0% 50%;
+    }
+}
+
   .slide {
     opacity: 0;
     transition-duration: 1s ease;
@@ -62,8 +77,8 @@ const MainContainer = styled.div`
   .desp{
     font-weight: 600;
     font-size: 1.5rem;
-    color: #1C1427;
-    text-shadow: 0 0 2px #333;
+    color: white;
+    text-shadow: 2px 2px 2px black;
   }
   .right-arrow {
     position: absolute;
