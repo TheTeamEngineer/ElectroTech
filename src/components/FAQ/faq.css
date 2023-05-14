@@ -44,6 +44,7 @@
 
 .accordion__label:hover {
   background: rgba(0, 0, 0, 0.548);
+  color: white;
 }
 
 .accordion__label::after {

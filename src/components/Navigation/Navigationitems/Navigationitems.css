@@ -25,6 +25,12 @@
   height: 30px;
   color: white;
 }
+.signup:hover{
+  cursor: pointer;
+  width: 72px;
+  height: 32px;
+  font-size: 14px;
+}
 .login{
    position: absolute;
   top: 27px;
@@ -38,6 +44,12 @@
   height: 30px;
   color: white;
 
+}
+.login:hover{
+  cursor: pointer;
+  font-size: 14px;
+  width: 72px;
+  height: 32px;
 }
 @media (max-width: 768px) {
  .NavigationItems li:not(:last-child) {

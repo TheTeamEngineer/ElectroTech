@@ -63,6 +63,10 @@ h3 {
   align-items: flex-start;
 }
 
+.wcfright:hover{
+  cursor: pointer;
+}
+
 .productcard:hover .productinfo {
   background-color: #fff;
   display: block;
